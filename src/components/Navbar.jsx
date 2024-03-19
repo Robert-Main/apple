@@ -11,7 +11,7 @@ const Navbar = () => {
                     {navLists.map((nav) => (
                         <div
                             key={nav}
-                            className="px-5 text-sm transition-all cursor-pointer text-gray hover:text-white"
+                            className="px-5 transition-all cursor-pointer text-md text-gray hover:text-white"
                         >
                             {nav}
                         </div>
