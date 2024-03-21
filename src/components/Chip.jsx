@@ -40,7 +40,7 @@ const Chip = () => {
                         <br /> A monster win for gaming.
                     </h2>
 
-                    <p className="hiw-subtitle">
+                    <p className="text-center hiw-subtitle">
                         It's here. The biggest redesign in the history of Apple
                         GPUs.
                     </p>
@@ -57,7 +57,7 @@ const Chip = () => {
                         </div>
                         <div className="hiw-video">
                             <video
-                                className="absolute pointer-events-none"
+                                className="pointer-events-none"
                                 playsInline
                                 preload="none"
                                 muted
